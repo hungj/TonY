@@ -1,5 +1,5 @@
 shipkit {
-  gitHub.repository = "linkedin/TonY"
+  gitHub.repository = "hungj/TonY"
 
   gitHub.readOnlyAuthToken = "c0ad6053cebce2e5aa54053228930bcc264ebe9b"
 
