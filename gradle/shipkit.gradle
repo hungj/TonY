@@ -40,3 +40,6 @@ allprojects {
     }
   }
 }
+afterEvaluate {
+  gitPush.url = "git@github.com:hungj/TonY.git"
+} 
