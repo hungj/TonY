@@ -17,7 +17,7 @@ allprojects {
       key = System.getenv("BINTRAY_API_KEY")
 
       pkg {
-        repo = 'maven'
+        repo = 'test-repo'
         userOrg = 'linkedin'
         name = 'TonY'
         licenses = ['BSD 2-Clause']
@@ -28,11 +28,13 @@ allprojects {
         }
 */
         version {
+/*
           mavenCentralSync {
             sync = true
             user = System.env.OSSRH_USER
             password = System.env.OSSRH_PWD
           }
+*/
         }
       }
     }
