@@ -1,5 +1,4 @@
 group "com.linkedin"
-version "0.1.0"
 
 buildscript {
   repositories {
@@ -66,7 +65,6 @@ ext.deps = [
 ]
 
 allprojects {
-  project.version= "0.1.0"
   group = "com.linkedin.tony"
 }
 
