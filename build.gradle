@@ -112,7 +112,7 @@ apply plugin: 'distribution'
 // configuration to include in the lib directory.
 def generateDistContents(configurationName) {
   return {
-    into('.') { 
+    into('.') {  
       from rootProject.fileTree('.') {
         include 'README.md'
         include 'LICENSE'
