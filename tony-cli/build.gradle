@@ -11,7 +11,7 @@ shadowJar {
   }
 }
 
-jar.enabled = false
+// jar.enabled = false
 configurations.all {
   artifacts.removeAll artifacts.findAll { !it.archiveTask.enabled }
 }
